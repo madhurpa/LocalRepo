@@ -7,6 +7,7 @@ public class MinimumNumber {
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] < min) {
                 min = numbers[i]; // Update min if a smaller number is found
+                System.out.println("The minimum number is: " + min);
             }
         }
 
